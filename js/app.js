@@ -15,6 +15,7 @@ const fetchData= async(id)=>
     }
     
 }
+
 document.addEventListener('DOMContentLoaded',()=>{
     const random = getRandomInt(1,151)
     fetchData(random)
