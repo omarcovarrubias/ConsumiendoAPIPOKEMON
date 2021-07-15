@@ -28,6 +28,8 @@ const pintarCard=(pokemon)=>{
     const flex = document.querySelector('.flex')
     const fragment = document.createDocumentFragment()
     const clone = template.cloneNode(true)
+    clone.querySelector('card-body-img').setAtribute(name,value)
+
 }
 
 /*
